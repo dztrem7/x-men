@@ -1,0 +1,226 @@
+.container {
+    max-width: 1034px;
+}
+
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-bottom: 26px;
+}
+
+.lista ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.lista ul li {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner {
+    background-color: #0029FF;
+    height: 212px;
+    border-radius: 40px;
+    width: 1034px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones img {
+    margin-right: 16px;
+    
+}
+
+.formulario input {
+    width: 724px;
+    height: 58px;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    padding-left: 70px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #41323270;
+    border: 1px solid #342D2D29;
+    outline: none;
+}
+
+.formulario input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 24px;
+    color: #41323270;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.bg-xmen {
+    position: relative;
+}
+
+.bg-xmen img {
+    height: 450px;
+}
+
+.data {
+    background-color: #342727;
+    width: 136px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.data span {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.titulo h1 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.titulo p {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lupa {
+    position: absolute;
+    left: 0;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.formulario form {
+    position: relative;
+}
+
+.cartoes {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    width: 322px;
+    height: 392px;
+    border: none;
+}
+
+.herois {
+    height: 188px;
+}
+
+.card h1 {
+    font-family: "Righteous", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #342727;
+    margin-top: 10px;
+}
+
+.card p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #342727EB;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.carrosel {
+    margin-bottom: 50px;
+}
+
+.perfil img {
+    width: 50px;
+    height: 50px;
+}
+
+.rodape {
+    background-color: blue;
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape span {
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .lista {
+        display: none;
+    }
+    .banner {
+        width: 100%;
+    }
+    .formulario input {
+        width: 100%;
+    }
+    .bg-xmen img {
+        height: 200px;
+        width: 100%;
+    }
+    .icones {
+        display: flex;
+        align-items: center;
+    }
+    .icone1 {
+        max-width: 80px;
+    }
+    .icone2 {
+        max-width: 150px;
+    }
+    .rodape span {
+        font-size: 20px;
+    }
+    .card {
+        width: 100%;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .cartoes {
+        flex-direction: column;
+    }
+}
